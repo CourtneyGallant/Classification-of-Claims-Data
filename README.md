@@ -7,4 +7,5 @@ client has and whether or not the client smokes.
 
 This information can be used to predict whether pending customers are likely to claim, based on their information and how similar it is 
 to the current customer information used to train the model. High risk customers, can be identified and carefully considered while low
-risk customers may not need too much consideration.
+risk customers may not need too much consideration. Using the information of clients who have claimed, a linear regression model is used
+to predict the claims amount for claiming customers and theoretically claiming customers i.e. pending customers who might claim. 
